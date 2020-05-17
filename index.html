@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>ECOMAP</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- MapAPI -->
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="mainsec"></div>
+  <!-- Main navigation -->
+<header>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><strong>ECOMAP</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+        aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#mainsec">Главная </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#aboutus">О нас </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#addsv">Добавление свалки </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#faq">FAQ </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mapdiv">Карта</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <!-- Full Page Intro -->
+  <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://phototass2.cdnvideo.ru/width/1200_4ce85301/tass/m2/uploads/i/20180921/4810329.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-12 mb-4 white-text text-center">
+            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
+              data-wow-delay="0.3s"><strong>ECOMAP</strong></h1>
+            <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Карта несанкционированных свалок</strong></h5>
+            <a class="btn btn-outline-white wow fadeInDown" href="/map" data-wow-delay="0.4s">Перейти к карте</a>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+  </div>
+  <!-- Full Page Intro -->
+</header>
+<!-- Main navigation -->
+
+<div class="container my-5 py-5 screen">
+
+  <!--Section: Content-->
+  <section class="text-center px-md-5 mx-md-5 dark-grey-text" id="aboutus">
+
+    <div class="row justify-content-center">
+      <div class="col">
+        <h2 class="font-weight-bold pb-5 wow fadeIn " data-wow-delay="0.3s">О нас</h2>
+      </div>
+    </div>
+
+    <!--Grid row-->
+    <div class="row d-flex justify-content-center">
+
+      <!--Grid column-->
+      <div class="col-lg-10">
+
+        <p class="h5 wow fadeIn " data-wow-delay="0.3s">Данный сайт создан для регистрирования свалок на территории РФ. Наша команда надеется что ECOMAP поможет увидеть что проблема несонкционированных свалок является распространенной и требует решения.</p>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+  </section>
+  <!--Section: Content-->
+
+
+</div>
+
+<hr>
+
+<div class="container my-5">
+
+
+  <!--Section: Content-->
+  <section class="dark-grey-text">
+
+    <div class="row pr-lg-5">
+      <div class="col-md-7 mb-4">
+
+        <div class="view">
+          <img src="https://www.mittavtryck.se/fileadmin/_processed_/7/b/csm_Soptipp_7e5f85bc69.jpg" class="img-fluid" alt="smaple image">
+        </div>
+
+      </div>
+      <div class="col-md-5 d-flex align-items-center">
+        <div class="h5 wow fadeInLeft " data-wow-delay="0.3s">
+          
+          <h3 class="font-weight-bold mb-4">Проблема свалок</h3>
+
+        	<p>В данный момент на территории Российской Федерации актуальна проблема большого количества несонкционированных свалок. Которые в свою очередь отрицательно влияют на экологию, загрезняя и отравляя почву и воздух. Влияя на наше здоровье.</p>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--Section: Content-->
+</div>
+
+<hr class="pb-5">
+
+<div class="container my-5">
+
+
+  <!--Section: Content-->
+  <section class="p-5">
+    
+
+    <div class="row d-flex justify-content-center">
+
+      <div class="col-md-6 col-lg-3 mb-4 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          <span class="d-inline-block count-up" data-from="0" data-to="10000" data-time="2000">10000+</span>
+          <i class="fas fa-file-alt indigo-text"></i>
+        </h4>
+        <p class="font-weight-normal text-muted">несонкционированных свалок в РФ</p>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          <span class="d-inline-block count1" data-from="0" data-to="227" data-time="2000">227</span>
+          <i class="fas fa-layer-group indigo-text"></i>
+        </h4>
+        <p class="font-weight-normal text-muted">неустраненных свалок в Смоленской области</p>
+      </div>
+
+      <div class="col-md-6 col-lg-3 mb-4 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          <span class="d-inline-block count2" data-from="0" data-to="113" data-time="2000">113</span>
+          <i class="fas fa-pencil-ruler indigo-text"></i>
+        </h4>
+        <p class="font-weight-normal text-muted">устраненных свалок в Смоленской области</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!--Section: Content-->
+
+
+</div>
+<hr>
+
+<div class="container my-5 py-5 px-4 px-lg-0">
+
+  <!-- Section -->
+  <section id="addsv">
+    
+    
+    <h3 class="font-weight-bold text-center dark-grey-text pb-2">Добавление свалки</h3>
+
+    <p class="lead text-center text-muted pt-2 mb-5">Для добавления свалки нужно прислать письмо на <a href="mailto:ecomap.add@ya.ru">электронную почту ecomap.add@ya.ru</a> удволитворяещее следуещим правилам:</p>
+    
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+
+        <ol class="timeline">
+          <li class="timeline-element">
+            <h5 class="font-weight-bold dark-grey-text mb-3">Тема письма</h5>
+            <p class="text-muted">В теме письма нужно написать ecomapadd и указать город </p>
+          </li>
+
+          <li class="timeline-element">
+            <h5 class="font-weight-bold dark-grey-text mb-3">Текст письма</h5>
+            <p class="text-muted">В тескте письма обязательно указать максимально подробное местоположение (желательно координаты места) свалки и по желанию дополнительную информацию</p>
+          </li>
+
+          <li class="timeline-element">
+            <h5 class="font-weight-bold dark-grey-text mb-3">Вложения</h5>
+            <p class="text-muted">Во вложения нужно прикрепить несколько фотографий показывающих размеры свалки</p>
+          </li>
+
+          <li class="timeline-element">
+            <h5 class="font-weight-bold dark-grey-text mb-3">Пример письма</h5>
+            <p><img class="img-fluid z-depth-1-half rounded" src="img/simple1.jpg" alt="..."></p>
+          </li>
+        </ol>
+
+      </div>
+    </div>
+    
+  </section>
+  <!-- Section -->
+  
+</div>
+
+
+<div class="container my-5">
+
+
+  <!--Section: Content-->
+  <section id="faq">
+
+    <h6 class="font-weight-normal text-uppercase font-small grey-text mb-4 text-center">FAQ</h6>
+    <!-- Section heading -->
+    <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h3>
+    <hr class="w-header">
+
+		<div class="row">
+      <div class="col-md-12 col-lg-10 mx-auto mb-5">
+      
+        <!--Accordion wrapper-->
+        <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+          <!-- Accordion card -->
+          <div class="card border-top border-bottom-0 border-left border-right border-light">
+
+            <!-- Card header -->
+            <div class="card-header border-bottom border-light" role="tab" id="headingOne1">
+              <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+                aria-controls="collapseOne1">
+                <h5 class="black-text font-weight-normal mb-0">
+                  Чем опасны несанкционированные свалки?<i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+              data-parent="#accordionEx">
+              <div class="card-body">
+                Мусорники в неорганизованных местах вредны для окружающих и природы. Обычно среди отходов попадаются не только быстро разлагающиеся ТБО, металл, стекло или пластик, но и довольно опасные предметы: ртутные лампы; просроченные медикаменты; батарейки; электрические приборы; взрывоопасные вещи. Мусор, который относится к высокому классу опасности, должен утилизироваться особым образом. Его нельзя просто выбросить, важно, чтобы он был уничтожен в соответствии с нормами СанПиН.</div>
+            </div>
+
+          </div>
+          <!-- Accordion card -->
+
+          <!-- Accordion card -->
+          <div class="card border-bottom-0 border-left border-right border-light">
+
+            <!-- Card header -->
+            <div class="card-header border-bottom border-light" role="tab" id="headingTwo2">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+                aria-expanded="false" aria-controls="collapseTwo2">
+                <h5 class="black-text font-weight-normal mb-0">
+                  Как государство борется с нарушителями порядка?<i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+              data-parent="#accordionEx">
+              <div class="card-body">
+                Штраф за незаконную свалку мусора – это далеко не самое серьезное наказание, которое может грозить. Лица, которые выбрасывают или складируют отходы в неподходящей для этих целей зоне, будут привлечены к ответственности, установленной статьями КоАП РФ. Однако в некоторых ситуациях, человеку может грозить и возбуждение уголовного дела.
+              </div>
+            </div>
+
+          </div>
+          <!-- Accordion card -->
+
+          <!-- Accordion card -->
+          <div class="card border-bottom-0 border-left border-right border-light">
+
+            <!-- Card header -->
+            <div class="card-header border-bottom border-light" role="tab" id="headingThree3">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+                aria-expanded="false" aria-controls="collapseThree3">
+                <h5 class="black-text font-weight-normal mb-0">
+                  Кому жаловаться?<i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+              data-parent="#accordionEx">
+              <div class="card-body">
+								Ситуаций, влекущих за собой возникновения свалок бытового мусора в неположенном месте, множество. Отсутствие у управляющей компании договора с мусоровывозящей организацией, нежелание жильцов дома или частного сектора вносить дополнительную плату за услугу – это далеко не полный список возможных причин. Уполномоченные следить за экологической обстановкой на вверенном участке органы управления могут проявлять халатность и игнорировать формирование мусорника. Поэтому самих граждан просят проявлять бдительность и при обнаружении несанкционированного мусорного полигона обращаться в: местную администрацию; департамент ЖКХ; Росприроднадзор; отделы экологического контроля; прокуратуру или полицию.</div>
+            </div>
+
+          </div>
+          <!-- Accordion card -->
+          
+          <!-- Accordion card -->
+          <div class="card border-left border-right border-light">
+
+            <!-- Card header -->
+            <div class="card-header border-bottom border-light" role="tab" id="headingThree4">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree4"
+                aria-expanded="false" aria-controls="collapseThree4">
+                <h5 class="black-text font-weight-normal mb-0">
+                  Как правильно составить жалобу?<i class="fas fa-angle-down rotate-icon"></i>
+                </h5>
+              </a>
+            </div>
+
+            <!-- Card body -->
+            <div id="collapseThree4" class="collapse" role="tabpanel" aria-labelledby="headingThree4"
+              data-parent="#accordionEx">
+              <div class="card-body">
+                <p>Если вы заметили свалку строительного или бытового мусора, необходимо незамедлительно сообщить о ней. Алгоритм действий следующий.</p>
+								<ol>
+                  <li>Визуально оцениваются приблизительные размеры свалки.</li>
+                  <li>Определяется местонахождение мусорника – желательно зафиксировать точные координаты.</li>
+                  <li>С разных ракурсов фотографируют отходы.</li>
+                  <li>Узнают в местной администрации, кто несет ответственность за данную территорию.</li>
+                  <li>Составляют жалобу по плану:
+                    <ul>
+                      <li>подробно описать ситуацию;</li>
+                      <li>приложить фото и скриншот с координатами, если это возможно;</li>
+                      <li>указать личные данные и контакты.</li>
+                    </ul>
+                  </li>
+                </ol>
+                <p>Жалобы обычно отправляют на электронную почту соответствующему органу власти. В ответ приходит уведомление, что обращение принято и ему присвоен индивидуальный номер. О принятых мерах гражданина также оповещают по электронной почте. С жалобой можно обратиться к главе администрации лично, записавшись на прием.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- Accordion wrapper -->
+        
+      </div>
+    </div>
+
+	</section>
+  
+  
+</div>
+
+<hr>
+
+
+<div class="row justify-content-center p-5" id="mapdiv">
+
+  <div class="col-12 pb-3">
+    <h3 class="font-weight-bold mb-4 text-center">Карта свалок</h3>
+  </div>
+
+  
+
+   <section id="mapSection">
+        <div id="map"></div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href=""> IstoxGroup</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+  <!-- SCRIPTS -->
+  <!-- Map -->
+  <script src="js/map.js"></script>
+  <script src="js/mobile.js"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="js/addons-pro/stepper.min.js"></script>
+  <script src="https://kit.fontawesome.com/8964241ff1.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+
+
+  <script type="text/javascript">
+   $(document).ready(function(){
+      $("#navbarSupportedContent").on("click","a", function (event) {
+          event.preventDefault();
+          var id  = $(this).attr('href'),
+              top = $(id).offset().top;
+          $('body,html').animate({scrollTop: top}, 1500);
+      });
+  });
+  </script>
+</body>
+
+</html>
