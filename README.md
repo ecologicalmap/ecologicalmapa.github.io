@@ -1,1 +1,0 @@
-# ecologicalmap.github.io
